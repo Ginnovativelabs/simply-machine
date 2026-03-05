@@ -1,2 +1,2 @@
 # simply-machine
-This project is all the functionalities that can be useful to train and test machine launguage models
+This project has all the necessary utilities that can be useful to train and test machine launguage models
