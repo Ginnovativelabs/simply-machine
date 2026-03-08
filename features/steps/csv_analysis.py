@@ -1,7 +1,13 @@
+from pathlib import Path
+import sys
+
 from behave import given,when,then
 from pandas.api import types as ptypes
 import pandas as pd
 import os
+
+# Add src directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
 
 from preprocessing.analyse import Analyser
 
