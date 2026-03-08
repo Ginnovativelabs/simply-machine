@@ -4,7 +4,8 @@ from typing import Union, List
 from sklearn.impute import KNNImputer
 
 class Imputer:
-    """A comprehensive class for handling missing data imputation in machine learning."""
+    """A comprehensive class for handling 
+    missing data imputation in machine learning."""
     
     def __init__(self, strategy: str = 'mean'):
         """
